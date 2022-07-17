@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int amount = 100;
-        int x = 1100;
-        int p;
-        if (x >= 1000) {
-            p = x + (x / 100);
+        int balance = 100;
+        int refil = 1100;
+        int bonus;
+        if (refil >= 1000) {
+            bonus = refil + (refil / 100);
         } else {
-            p = x;
+            bonus = refil;
         }
-        System.out.println("текущий счет:" + (amount + p));
+        System.out.println("текущий счет:" + (balance + bonus));
     }
 }
 
